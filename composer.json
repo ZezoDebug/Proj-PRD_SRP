@@ -1,0 +1,19 @@
+{
+    "name": "josvitor/solid-srp-demo",
+    "description": "Cadastro e Listagem de Produtos",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Josvitor\\SolidSrpDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZezoDebug",
+            "email": "josefaculdade.24@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
