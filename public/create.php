@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use App\Application\ProductService;
-use App\Infra\FileProductRepository;
-use App\Domain\SimpleProductValidator;
+use Josvitor\SolidSrpDemo\Application\ProductService;
+use Josvitor\SolidSrpDemo\Infra\FileProductRepository;
+use Josvitor\SolidSrpDemo\Domain\SimpleProductValidator;
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);

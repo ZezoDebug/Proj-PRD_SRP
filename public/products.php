@@ -22,10 +22,21 @@ $products = $service->list();
     <meta charset="UTF-8">
     <title>Lista de Produtos</title>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        table { border-collapse: collapse; width: 60%; margin-top: 20px; }
-        th, td { border: 1px solid #000; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+        }
+        table { 
+            border-collapse: collapse; 
+            width: 60%; margin-top: 20px; 
+        }
+        th, td { 
+            border: 1px solid #000; 
+            padding: 8px; text-align: left; 
+        }
+        th { 
+            background-color: #f2f2f2; 
+        }
     </style>
 </head>
 <body>
@@ -53,5 +64,6 @@ $products = $service->list();
             </tbody>
         </table>
     <?php endif; ?>
+    <a href="index.php">← Voltar ao Cadastro</a>
 </body>
 </html>
