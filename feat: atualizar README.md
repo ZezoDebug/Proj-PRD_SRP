@@ -84,7 +84,7 @@ composer dump-autoload
 3. Inicie o Apache pelo painel do XAMPP.
 4. Acesse no navegador:
 ```
-http://localhost/products-srp-demo/public/
+http://localhost/Proj-PRD_SRP/public/
 ```
 
 ---
